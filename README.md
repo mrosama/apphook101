@@ -27,3 +27,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 npm install  husky lint-staged --save-dev
 -------------------------------
 
+
+git branch -M main
+git remote add origin git@github.com:mrosama/apphook101.git
+git push -u origin main
+
+
+
+git remote add origin git@github.com:mrosama/apphook101.git
+git branch -M main
+git push -u origin main
