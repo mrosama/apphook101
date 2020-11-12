@@ -25,4 +25,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 npm install  husky lint-staged --save-dev
+-------------------------------
 
