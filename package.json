@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test":"echo \"Error: no test specified\"",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -44,7 +45,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "vue-cli-service test:unit",
+      "pre-push": "vue-cli-service ",
       "post-commit":"npm run build"
   }
   },
