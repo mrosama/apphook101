@@ -41,6 +41,15 @@ git push -u origin main && git push -u github main
 
 
 git remote add staging 192.168.1.5:/home/osama/Desktop/Server/Testing/hook1/staging 
-
+vivek@192.168.2.13:/tmp/
 
 git push -u origin main && git push -u github main &&  git push -u staging main
+
+ssh-keygen -R 192.168.1.5
+
+ssh -o PubkeyAuthentication=no osama@local
+ssh -o PubkeyAuthentication=no  192.168.1.5
+
+sudo systemctl restart sshd.service
+
+grep Port /etc/ssh/sshd_config
