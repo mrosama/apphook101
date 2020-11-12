@@ -44,7 +44,8 @@
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
-      "pre-push": "vue-cli-service test:unit"
+      "pre-push": "vue-cli-service test:unit",
+      "post-commit":"npm run build"
   }
   },
   "lint-staged": {
